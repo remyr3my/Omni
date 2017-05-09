@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED5625011EC1C7B000E715B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5625001EC1C7B000E715B0 /* AppDelegate.swift */; };
+		ED5625031EC1C7B000E715B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5625021EC1C7B000E715B0 /* ViewController.swift */; };
+		ED5625061EC1C7B000E715B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5625041EC1C7B000E715B0 /* Main.storyboard */; };
+		ED5625081EC1C7B000E715B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5625071EC1C7B000E715B0 /* Assets.xcassets */; };
+		ED56250B1EC1C7B000E715B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5625091EC1C7B000E715B0 /* LaunchScreen.storyboard */; };
+		ED5625161EC1C7B000E715B0 /* OMNI_HospitalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5625151EC1C7B000E715B0 /* OMNI_HospitalsTests.swift */; };
+		ED5625211EC1C7B000E715B0 /* OMNI_HospitalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5625201EC1C7B000E715B0 /* OMNI_HospitalsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5625121EC1C7B000E715B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5624F51EC1C7AF00E715B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5624FC1EC1C7B000E715B0;
+			remoteInfo = "OMNI Hospitals";
+		};
+		ED56251D1EC1C7B000E715B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5624F51EC1C7AF00E715B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5624FC1EC1C7B000E715B0;
+			remoteInfo = "OMNI Hospitals";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED5624FD1EC1C7B000E715B0 /* OMNI Hospitals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OMNI Hospitals.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5625001EC1C7B000E715B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED5625021EC1C7B000E715B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED5625051EC1C7B000E715B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED5625071EC1C7B000E715B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED56250A1EC1C7B000E715B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED56250C1EC1C7B000E715B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5625111EC1C7B000E715B0 /* OMNI HospitalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OMNI HospitalsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5625151EC1C7B000E715B0 /* OMNI_HospitalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMNI_HospitalsTests.swift; sourceTree = "<group>"; };
+		ED5625171EC1C7B000E715B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED56251C1EC1C7B000E715B0 /* OMNI HospitalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OMNI HospitalsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5625201EC1C7B000E715B0 /* OMNI_HospitalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMNI_HospitalsUITests.swift; sourceTree = "<group>"; };
+		ED5625221EC1C7B000E715B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED5624FA1EC1C7B000E715B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED56250E1EC1C7B000E715B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5625191EC1C7B000E715B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED5624F41EC1C7AF00E715B0 = {
+			isa = PBXGroup;
+			children = (
+				ED5624FF1EC1C7B000E715B0 /* OMNI Hospitals */,
+				ED5625141EC1C7B000E715B0 /* OMNI HospitalsTests */,
+				ED56251F1EC1C7B000E715B0 /* OMNI HospitalsUITests */,
+				ED5624FE1EC1C7B000E715B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5624FE1EC1C7B000E715B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED5624FD1EC1C7B000E715B0 /* OMNI Hospitals.app */,
+				ED5625111EC1C7B000E715B0 /* OMNI HospitalsTests.xctest */,
+				ED56251C1EC1C7B000E715B0 /* OMNI HospitalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5624FF1EC1C7B000E715B0 /* OMNI Hospitals */ = {
+			isa = PBXGroup;
+			children = (
+				ED5625001EC1C7B000E715B0 /* AppDelegate.swift */,
+				ED5625021EC1C7B000E715B0 /* ViewController.swift */,
+				ED5625041EC1C7B000E715B0 /* Main.storyboard */,
+				ED5625071EC1C7B000E715B0 /* Assets.xcassets */,
+				ED5625091EC1C7B000E715B0 /* LaunchScreen.storyboard */,
+				ED56250C1EC1C7B000E715B0 /* Info.plist */,
+			);
+			path = "OMNI Hospitals";
+			sourceTree = "<group>";
+		};
+		ED5625141EC1C7B000E715B0 /* OMNI HospitalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5625151EC1C7B000E715B0 /* OMNI_HospitalsTests.swift */,
+				ED5625171EC1C7B000E715B0 /* Info.plist */,
+			);
+			path = "OMNI HospitalsTests";
+			sourceTree = "<group>";
+		};
+		ED56251F1EC1C7B000E715B0 /* OMNI HospitalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5625201EC1C7B000E715B0 /* OMNI_HospitalsUITests.swift */,
+				ED5625221EC1C7B000E715B0 /* Info.plist */,
+			);
+			path = "OMNI HospitalsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED5624FC1EC1C7B000E715B0 /* OMNI Hospitals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5625251EC1C7B000E715B0 /* Build configuration list for PBXNativeTarget "OMNI Hospitals" */;
+			buildPhases = (
+				ED5624F91EC1C7B000E715B0 /* Sources */,
+				ED5624FA1EC1C7B000E715B0 /* Frameworks */,
+				ED5624FB1EC1C7B000E715B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OMNI Hospitals";
+			productName = "OMNI Hospitals";
+			productReference = ED5624FD1EC1C7B000E715B0 /* OMNI Hospitals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED5625101EC1C7B000E715B0 /* OMNI HospitalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5625281EC1C7B000E715B0 /* Build configuration list for PBXNativeTarget "OMNI HospitalsTests" */;
+			buildPhases = (
+				ED56250D1EC1C7B000E715B0 /* Sources */,
+				ED56250E1EC1C7B000E715B0 /* Frameworks */,
+				ED56250F1EC1C7B000E715B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5625131EC1C7B000E715B0 /* PBXTargetDependency */,
+			);
+			name = "OMNI HospitalsTests";
+			productName = "OMNI HospitalsTests";
+			productReference = ED5625111EC1C7B000E715B0 /* OMNI HospitalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED56251B1EC1C7B000E715B0 /* OMNI HospitalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED56252B1EC1C7B000E715B0 /* Build configuration list for PBXNativeTarget "OMNI HospitalsUITests" */;
+			buildPhases = (
+				ED5625181EC1C7B000E715B0 /* Sources */,
+				ED5625191EC1C7B000E715B0 /* Frameworks */,
+				ED56251A1EC1C7B000E715B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED56251E1EC1C7B000E715B0 /* PBXTargetDependency */,
+			);
+			name = "OMNI HospitalsUITests";
+			productName = "OMNI HospitalsUITests";
+			productReference = ED56251C1EC1C7B000E715B0 /* OMNI HospitalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED5624F51EC1C7AF00E715B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ios dev 4";
+				TargetAttributes = {
+					ED5624FC1EC1C7B000E715B0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YZ5JM7ZWEG;
+						ProvisioningStyle = Automatic;
+					};
+					ED5625101EC1C7B000E715B0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YZ5JM7ZWEG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED5624FC1EC1C7B000E715B0;
+					};
+					ED56251B1EC1C7B000E715B0 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = YZ5JM7ZWEG;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ED5624FC1EC1C7B000E715B0;
+					};
+				};
+			};
+			buildConfigurationList = ED5624F81EC1C7AF00E715B0 /* Build configuration list for PBXProject "OMNI Hospitals" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED5624F41EC1C7AF00E715B0;
+			productRefGroup = ED5624FE1EC1C7B000E715B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5624FC1EC1C7B000E715B0 /* OMNI Hospitals */,
+				ED5625101EC1C7B000E715B0 /* OMNI HospitalsTests */,
+				ED56251B1EC1C7B000E715B0 /* OMNI HospitalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED5624FB1EC1C7B000E715B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED56250B1EC1C7B000E715B0 /* LaunchScreen.storyboard in Resources */,
+				ED5625081EC1C7B000E715B0 /* Assets.xcassets in Resources */,
+				ED5625061EC1C7B000E715B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED56250F1EC1C7B000E715B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED56251A1EC1C7B000E715B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED5624F91EC1C7B000E715B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5625031EC1C7B000E715B0 /* ViewController.swift in Sources */,
+				ED5625011EC1C7B000E715B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED56250D1EC1C7B000E715B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5625161EC1C7B000E715B0 /* OMNI_HospitalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5625181EC1C7B000E715B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5625211EC1C7B000E715B0 /* OMNI_HospitalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5625131EC1C7B000E715B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5624FC1EC1C7B000E715B0 /* OMNI Hospitals */;
+			targetProxy = ED5625121EC1C7B000E715B0 /* PBXContainerItemProxy */;
+		};
+		ED56251E1EC1C7B000E715B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5624FC1EC1C7B000E715B0 /* OMNI Hospitals */;
+			targetProxy = ED56251D1EC1C7B000E715B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED5625041EC1C7B000E715B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED5625051EC1C7B000E715B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED5625091EC1C7B000E715B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED56250A1EC1C7B000E715B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED5625231EC1C7B000E715B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED5625241EC1C7B000E715B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5625261EC1C7B000E715B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = "OMNI Hospitals/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DNM.OMNI-Hospitals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED5625271EC1C7B000E715B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = "OMNI Hospitals/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DNM.OMNI-Hospitals";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ED5625291EC1C7B000E715B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = "OMNI HospitalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DNM.OMNI-HospitalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMNI Hospitals.app/OMNI Hospitals";
+			};
+			name = Debug;
+		};
+		ED56252A1EC1C7B000E715B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = "OMNI HospitalsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DNM.OMNI-HospitalsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMNI Hospitals.app/OMNI Hospitals";
+			};
+			name = Release;
+		};
+		ED56252C1EC1C7B000E715B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = "OMNI HospitalsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DNM.OMNI-HospitalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "OMNI Hospitals";
+			};
+			name = Debug;
+		};
+		ED56252D1EC1C7B000E715B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YZ5JM7ZWEG;
+				INFOPLIST_FILE = "OMNI HospitalsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DNM.OMNI-HospitalsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "OMNI Hospitals";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED5624F81EC1C7AF00E715B0 /* Build configuration list for PBXProject "OMNI Hospitals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5625231EC1C7B000E715B0 /* Debug */,
+				ED5625241EC1C7B000E715B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5625251EC1C7B000E715B0 /* Build configuration list for PBXNativeTarget "OMNI Hospitals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5625261EC1C7B000E715B0 /* Debug */,
+				ED5625271EC1C7B000E715B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED5625281EC1C7B000E715B0 /* Build configuration list for PBXNativeTarget "OMNI HospitalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5625291EC1C7B000E715B0 /* Debug */,
+				ED56252A1EC1C7B000E715B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED56252B1EC1C7B000E715B0 /* Build configuration list for PBXNativeTarget "OMNI HospitalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED56252C1EC1C7B000E715B0 /* Debug */,
+				ED56252D1EC1C7B000E715B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED5624F51EC1C7AF00E715B0 /* Project object */;
+}
